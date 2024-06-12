@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+.about-us-head h6 {
+  color: #ff6900;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.about-us-head h2 {
+  font-size: 28px;
+  max-width: 500px;
+  font-family: "Inter", sans-serif;
+
+}
+
+p {
+  display: block;
+  /* margin-block-start: 1em; */
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
