@@ -7,6 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -14,25 +26,44 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid" style="background-color: #d9e3ed;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12 ">
+                    <div class="col d-flex flex-rows mt-4">
+                        <a href="index.html" class="homeAbout">Home <span class="mx-2"> > </span></a>
+                        <p class="homeAbout" aria-current="page">About Us </p>
+                    </div>
+                    <div class="col">
+                        <h5 class="mb-4">About Us</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- *************About Section**************** -->
+    <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="row ">
                     <div class="col-sm-6">
-                        <div class="about-inner-img mb-3">
-                            <img src="./image/aboutSooprs.jpg" class="img-fluid rounded" alt="img">
+                        <div class="about-inner-img d-flex justify-content-center ">
+                            <img src="./image/ai-5.jpg" class="img-fluid rounded" alt="img">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="row gap-3">
                             <div class="col-sm-12">
-                                <div class="about-inner-img">
-                                    <img src="./image/about1.jpg" class="img-fluid rounded" alt="img">
+                                <div class="about-inner-img mb-1" id="display">
+                                    <img src="./image/man-using-tablet-work-connect-with-others.jpg"
+                                        class="img-fluid rounded" alt="img">
                                 </div>
                             </div>
-                            <div class="col-sm-12 ">
-                                <div class="about-inner-img">
-                                    <img src="./image/about2.jpg" class="img-fluid rounded" alt="img">
+                            <div class="col-sm-12">
+                                <div class="about-inner-img" id="display">
+                                    <img src="./image/programming-background-collage.jpg" class="img-fluid rounded"
+                                        alt="img">
                                 </div>
                             </div>
                         </div>
@@ -44,7 +75,8 @@
                     <div class="about-us-head my-5">
                         <h6>About Us</h6>
                         <h2>We Provide Best solutions For Your Business</h2>
-                        <p>Sooprs is an online platform, with a mission of helping people or businesses to transform
+                        <p class="parra">Sooprs is an online platform, with a mission of helping people or businesses to
+                            transform
                             digitally. We have seen many issues in this field, as a lot of businesses want to transform
                             themselves digitally but due to lack of relevant knowledge are not able to do so. Some got
                             cheated or not able to understand how all of this works. We at Sooprs have only one mission
@@ -56,39 +88,290 @@
                             project. And according to their budget we assign them experts, who will develop their
                             product or service.
                         </p>
-                        <!-- <h5>Our Mission</h5>
-                        <p>At DreamGigs, our mission is to empower individuals and businesses by
-                            facilitating easy access to a diverse range of high-quality services. We believe in creating
-                            a
-                            collaborative and inclusive marketplace that
-                            fosters growth, creativity, and mutual success.
-                        </p> -->
                     </div>
-                    <!-- <div class="about-features">
-                        <ul class="list-one">
-                            <li><span><img src="assets/img/icons/target-arrow-icon.svg" alt="img"></span>Diverse Network
-                                of
-                                Professionals</li>
-                            <li><span><img src="assets/img/icons/target-arrow-icon.svg" alt="img"></span>Trust and
-                                Transparency</li>
-                        </ul>
-                        <ul class="list-two">
-                            <li><span><img src="assets/img/icons/target-arrow-icon.svg" alt="img"></span>User Friendly
-                                Platform</li>
-                            <li><span><img src="assets/img/icons/target-arrow-icon.svg" alt="img"></span>Innovation In
-                                Technology</li>
-                        </ul>
-                    </div> -->
                 </div>
             </div>
         </div>
     </div>
+    <!-- *******************************2nd section**************************** -->
+    <section class="why-choose-sec py-4">
+        <div class="container servicecontainer ">
+            <div class="about-us-header d-flex flex-column justify-content-center align-items-center">
+                <h2>Why Choose Us</h2>
+                <p class="parra">We prioritize your satisfaction through personalized solutions and a commitment to
+                    excellence.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="why-choose-card d-flex flex-column justify-content-center align-items-center">
+                        <div class="card-icon">
+                            <img src="./image/why-choose-icon-01.svg" alt="img">
+                        </div>
+                        <h4>Service Commitment</h4>
+                        <p class="parra"> We deliver top-tier solutions, ensuring satisfaction through reliability,
+                            transparency, and a dedication to exceeding expectations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="why-choose-card">
+                        <div class="card-icon d-flex justify-content-center ">
+                            <img src="./image/why-choose-icon-02.svg" alt="img">
+                        </div>
+                        <h4>Fabulous Experience</h4>
+                        <p class="parra"> Our intuitive interface offers an effortless journey, from browsing
+                            services to booking and beyond.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="why-choose-card">
+                        <div class="card-icon">
+                            <img src="./image/why-choose-icon-03.svg" alt="img">
+                        </div>
+                        <h4>Data Secure</h4>
+                        <p class="parra"> We employ robust encryption, stringent access controls, and ongoing
+                            monitoring to safeguard your information.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="why-choose-card">
+                        <div class="card-icon d-flex justify-content-center">
+                            <img src="./image/why-choose-icon-04.svg" alt="img">
+                        </div>
+                        <h4>Fast Service</h4>
+                        <p class="parra"> We prioritize speed without compromising quality, ensuring your
+                            needs are met promptly and effectively
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="why-choose-card">
+                        <div class="card-icon d-flex justify-content-center">
+                            <img src="./image/why-choose-icon-05.svg" alt="img">
+                        </div>
+                        <h4>Secure Payment</h4>
+                        <p class="parra"> Enjoy peace of mind with encrypted transactions, trusted gateways,
+                            and a commitment to safeguarding your information.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="why-choose-card">
+                        <div class="card-icon d-flex justify-content-center">
+                            <img src="./image/why-choose-icon-06.svg" alt="img">
+                        </div>
+                        <h4>Dedicated Support</h4>
+                        <p class="parra"> Our 24/7 customer service team is here to assist you every step of the way.
+                            Experience personalized assistance for a seamless journey
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
+    <!-- carousel 3rd -->
+    <div class="container-fluid bg-white pt-5">
+        <div class="container">
+            <div class="owl-carousel owl-theme review-slider">
+                <div class="item">
+                    <div class="review-card">
+                        <!-- <span class="quotation-icon"><img class="" src="./image/quotation-icon.svg" alt="img"></span> -->
+                        <span class="quotation-icon"><i class="bi bi-quote quotation"></i></span>
+                        <h4>Great Work</h4>
+                        <p class="parra">“Amazing design, easy to customize and a design quality superlative account on
+                            its cloud
+                            platform
+                            for the optimized performance. And we didn't
+                            on our original designs.”
+                        </p>
+                        <div class="star-rate">
+                            <span>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                            </span>
+                        </div>
+                        <div class="review-user">
+                            <a href="javascript:void(0);"><img class="client-img" src="./image/client-img.jpg"
+                                    alt="img"></a>
+                            <h6 class="px-3"><a href="javascript:void(0);">Gloria Weber</a><span>United States</span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-card">
+                        <!-- <span class="quotation-icon"><img src="./image/quotation-icon.svg" alt="img"></span> -->
+                        <span class="quotation-icon"><i class="bi bi-quote quotation"></i></span>
+
+                        <h4>Seamless Experience</h4>
+                        <p class="parra">“Communication with the service provider was smooth and
+                            efficient through the platform's messaging system.
+                            The built-in tools for file sharing ensuring a productive experience.”
+                        </p>
+                        <div class="star-rate">
+                            <span>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                            </span>
+                        </div>
+                        <div class="review-user">
+                            <a href="javascript:void(0);"><img class="client-img" src="./image/user-18.jpg"
+                                    alt="img"></a>
+                            <h6 class="px-3"><a href="javascript:void(0);">John Cramer</a><span>United States</span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-card">
+                        <!-- <span class="quotation-icon"><img src="./image/quotation-icon.svg" alt="img"></span> -->
+                        <span class="quotation-icon"><i class="bi bi-quote quotation"></i></span>
+
+                        <h4>Great Work</h4>
+                        <p class="parra">“This service marketplace is a game-changer, delivering a polished and
+                            professional platform that exceeded our expectations
+                            and it saved us time and resources, allowing for a quick launch.”
+                        </p>
+                        <div class="star-rate">
+                            <span>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                            </span>
+                        </div>
+                        <div class="review-user">
+                            <a href="javascript:void(0);"><img class="client-img" src="./image/user-19.jpg"
+                                    alt="img"></a>
+                            <h6 class="px-3"><a href="javascript:void(0);">Mary Marquez</a><span>United States</span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-card">
+                        <!-- <span class="quotation-icon"><img src="./image/quotation-icon.svg" alt="img"></span> -->
+                        <span class="quotation-icon"><i class="bi bi-quote quotation"></i></span>
+
+                        <h4>Great Work</h4>
+                        <p class="parra"> “This service marketplace is a game-changer, delivering a polished and
+                            professional platform that exceeded our expectations
+                            and it saved us time and resources, allowing for a quick launch.”
+                        </p>
+                        <div class="star-rate">
+                            <span>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                            </span>
+                        </div>
+                        <div class="review-user">
+                            <a href="javascript:void(0);"><img class="client-img" src="./image/user-16.jpg"
+                                    alt="img"></a>
+                            <h6 class="px-3"><a href="javascript:void(0);">Mary Marquez</a><span>United States</span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- **********Hero section 4th************* -->
+    <!-- <div class="container-fluid" style="background-color: red;"> -->
+    <section class="start-seller-sec">
+        <div class="container heroContainer">
+            <div class="row">
+                <div class="col-lg-6 d-flex">
+                    <div class="seller-inner-img w-100">
+                        <img src="./image/971.jpg" class="img-fluid vission-mission" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 seller-info d-flex">
+                    <div class="seller-info-content w-100">
+                        <div class="seller-head">
+                            <h3 class="Vision my-1 p-0" style="color: #3203B4;">Vision :</h3>
+                            <p class="vission-parra">At SOOPRS, we connect professionals and clients in a digital
+                                ecosystem that values innovation and excellence. Our platform aims to be the top
+                                destination for freelance work, fostering a global community where talent meets
+                                opportunity.
+                            </p>
+                            <h3 class="Vision my-1 p-0" style="color: #3203B4;">Mission :</h3>
+                            <p class="vission-parra">At SOOPRS, we empower professionals globally with a digital space
+                                where talent meets opportunity. We're revolutionizing the freelance experience,
+                                fostering a community focused on inclusivity, innovation, and growth.
+                            </p>
+                        </div>
+                        <div class="seller-feature-list">
+                            <div class="sllers-list">
+                                <ul class="">
+                                    <li class="check"><span><i class="bi bi-shield-check mx-2 "></i></span>Set your prices</li>
+                                    <li class="check"><span><i class="bi bi-shield-check mx-2"></i></i></i></span>Flexible schedule
+                                    </li>
+                                    <li class="check"><span><i class="bi bi-shield-check mx-2"></i></i></span>Build your reputation
+                                    </li>
+                                    <li class="check"><span><i class="bi bi-shield-check mx-2"></i></i></span>Provide 24/7 support
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="signin.html" class="btn btn-primary w-auto my-2">Post Your Project</a>
+                            <!-- <div class="seller-small-img d-flex w-100 ">
+                                        <img src="./image/heroimg1.jpg" class="img-fluid w-50" alt="img">
+                                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
